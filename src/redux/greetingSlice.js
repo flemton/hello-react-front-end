@@ -1,9 +1,9 @@
-import { createSlice } from "@reduxjs/toolkit";
-import { fetchGreeting } from "./fetchGreeting";
+import { createSlice } from '@reduxjs/toolkit';
+import { fetchGreeting } from './fetchGreeting';
 
 const greetingSlice = createSlice({
-  name: "greeting",
-  initialState: "",
+  name: 'greeting',
+  initialState: '',
   reducers: {},
   extraReducers: (builder) => {
     builder.addCase(fetchGreeting.fulfilled, (state, action) => action.payload);
