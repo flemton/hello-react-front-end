@@ -1,70 +1,147 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<a name="readme-top"></a>
 
-## Available Scripts
+  <h1><b>Hello Rails Front End</b></h1>
 
-In the project directory, you can run:
+</div>
 
-### `npm start`
+# 📗 Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Hello Rails Front End ](#-hello-rails-front-end-)
+  - [💻 Link to Back End ](#-link-to-back-end-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+  - [👥 Author ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [❓ FAQ (OPTIONAL) ](#-faq-optional-)
+  - [📝 License ](#-license-)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# 📖 Hello Rails Front End <a name="about-project"></a>
 
-### `npm test`
+**Hello Rails Front End** The front-end component of the Hello Rails project is developed using React to provide an intuitive user interface for showing random greetings, it connects to the back-end API built with Ruby on Rails.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="right"\><a href="#readme-top"\>back to top</a></p>
 
-### `npm run build`
+## 💻 Link to Back End <a name="link-to-back-end"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Link to Back End API](https://github.com/flemton/hello-rails-back-end)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p align="right"\><a href="#readme-top"\>back to top</a></p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="right"><a href="#readme-top">back to top</a></p>
 
-### `npm run eject`
+## 🛠 Built With <a name="built-with"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Tech Stack <a name="tech-stack"></a>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<details>
+  <summary>Technologies</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Key Features <a name="key-features"></a>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [x] **API communication with Backend**
+- [x] **Show random greetinh**
 
-## Learn More
+<p align="right"\><a href="#readme-top"\>back to top</a></p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 💻 Getting Started <a name="getting-started"></a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To get a local copy up and running, follow these steps.
 
-### Code Splitting
+### Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Before you begin, make sure you have the following prerequisites installed on your system:
 
-### Analyzing the Bundle Size
+- Node.js: You need Node.js to run the React.js application.
+- npm: npm is used to manage packages in your React project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Setup
 
-### Making a Progressive Web App
+Clone this repository to your desired folder:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+sh <br>
+cd my-folder <br>
+git clone https://github.com/flemton/hello-rails-front-end.git
 
-### Advanced Configuration
+### Install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Install this project with:
 
-### Deployment
+- npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Usage
 
-### `npm run build` fails to minify
+To run the project, execute the following command:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+npm start
+
+<p align="right"><a href="#readme-top">back to top</a></p>
+
+## 👥 Author <a name="authors"></a>
+
+👤 **Alhassan (Newton) Osman**
+
+- GitHub: [@flemton](https://github.com/flemton)
+- LinkedIn: [@newtongh](https://www.linkedin.com/in/newtongh/)
+
+<p align="right"\><a href="#readme-top"\>back to top</a></p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **User Authentication and Authorization**
+- [ ] **User Profile Management**
+
+<p align="right"\><a href="#readme-top"\>back to top</a></p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/flemton/hello-rails-front-end/issues).
+
+<p align="right"\><a href="#readme-top"\>back to top</a></p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you find this project helpful, feel free to contribute or give it a star. Your support is appreciated!
+
+<p align="right"\><a href="#readme-top"\>back to top</a></p>
+
+## 🙏 Acknowledgments <a name="acknowledgments"></a>
+
+- I would like to thank Microverse for providing the opportunity to learn and implement this, this helped prepare me for the program final capstone.
+
+<p align="right"\><a href="#readme-top"\>back to top</a></p>
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+- **Can I use your project as a template for my own project?**
+
+  - Certainly, feel free to use this project as a template for your own work.
+
+- **Is your project licensed?**
+
+  - Yes, this project is open-source and available under the MIT License. You can find more details about the license [here](./LICENSE).
+
+<p align="right"\><a href="#readme-top"\>back to top</a></p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right"\><a href="#readme-top"\>back to top</a></p>
